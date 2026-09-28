@@ -1,4 +1,4 @@
-const score = 100
+const score = 100 
 const scoreValue = 100.3
 
 const isLoggedIn = false
@@ -20,3 +20,28 @@ const myFunction = function(){
     
 }
 console.log(typeof heros);
+
+
+
+// *****************************************
+
+// Stack( primitive),  Heap (Non-Primitive)
+
+let myYoutubename = "Abhishekprjapaticom"
+
+let anothername =  myYoutubename 
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: " user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "abhi@google,com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
